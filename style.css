@@ -1,0 +1,48 @@
+.container {
+    
+    
+    display: flex;
+    flex-direction:column;
+
+    height: auto;    
+    overflow:hidden;    
+
+}
+
+.nav {
+ 
+
+    display: flex;
+
+    background-color: #1F2937;
+
+    padding: 25px;
+    height: auto;
+    width: auto;
+
+    justify-content:space-between;
+    align-items:center;
+}
+
+.hero-1{
+    display:flex;
+    justify-content:center;
+
+    background-color: #1F2937;
+}
+
+h2, p, span {
+    color:white;
+}
+
+span {
+    
+    font-size:24px;
+    font-family:roboto;
+}
+
+.n_logo {
+
+    height:80px;
+    width:80px;
+}
